@@ -1,36 +1,39 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 p {
   color: #8f8f8f;
 }
 
+/* Containers */
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
-#title {
+/* Sections */
+.coloured-section {
   background-color: #ff4c68;
-  color: #ffffff;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+.title-header {
+  font-size: 3.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
 }
 
 /* Navigation Bar  */
@@ -50,7 +53,12 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
+}
+
+/* Title */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Download buttons */
@@ -68,10 +76,11 @@ p {
 
 /* Features */
 #features {
-  background-color: #fff;
-  padding: 7% 15%;
   position: relative;
-  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 .icon {
@@ -87,11 +96,10 @@ p {
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
 }
 
 .testimonial-image {
@@ -102,7 +110,6 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -114,7 +121,14 @@ p {
 /* Pricing */
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.price-heading {
+  font-size: 3rem;
 }
 
 .pricing-column {
@@ -122,40 +136,17 @@ p {
 }
 
 /* Call To Action */
-
-#cta {
-  background-color: #ff4c68;
-  padding: 7% 15%;
-  text-align: center;
-}
-
 .cta-header {
   color: #fff;
   font-size: 2.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-  margin: auto;
-  width: 60%;
 }
 
-/* Footer */
-
-#footer {
-  background-color: #fff;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.footer-social-link {
-  margin: 7% 10px 2% 0;
-}
 /* Media Query Breakpoints */
-
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
+
   .title-image {
     margin: 7% auto 3%;
     position: static;
