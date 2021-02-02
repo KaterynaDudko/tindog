@@ -120,3 +120,45 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Call To Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-header {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: auto;
+  width: 60%;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer-social-link {
+  margin: 7% 10px 2% 0;
+}
+/* Media Query Breakpoints */
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    margin: 7% auto 3%;
+    position: static;
+    transform: rotate(0);
+  }
+}
